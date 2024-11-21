@@ -1,0 +1,17 @@
+.wrap {
+    width: 400px;
+    height: 300px;
+}
+
+.collapse {
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.alpha {
+    background-color: darkcyan;
+}
+
+.beta {
+    color: black;
+}
