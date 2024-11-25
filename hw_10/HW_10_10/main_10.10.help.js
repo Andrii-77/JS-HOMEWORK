@@ -7,7 +7,6 @@ for (let i = 0; i < 100; i++) {
 const btnPrev = document.getElementById('prev');
 const btnNext = document.getElementById('next');
 const outputDiv = document.getElementById('output');
-let lastI = 10;
 
 function displayRange(start, end) {
     outputDiv.innerHTML = '';
@@ -17,6 +16,10 @@ function displayRange(start, end) {
         outputDiv.appendChild(p);
     }
 }
+
+displayRange(0, 10);
+
+let lastI = 10;
 
 btnNext.onclick = function () {
     lastI += 10;
