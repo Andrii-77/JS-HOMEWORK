@@ -1,0 +1,13 @@
+.target img {
+    width: 300px;
+}
+
+.target div{
+    background-color: burlywood;
+    padding-left: 20px;
+    /*margin-bottom: 10px;*/
+    padding-top: 5px;
+}
+body{
+    margin: 0;
+}
